@@ -1,0 +1,18 @@
+[package]
+name = "themis"
+version = "0.0.0"
+authors.workspace = true
+edition.workspace = true
+publish = false
+license = "MIT OR Apache-2.0"
+description = "https://en.wikipedia.org/wiki/Themis"
+
+[dependencies]
+blockbuster={path="/Users/dev_june/dev_docs/test-workspace/nearcore-blockbuster/blockbuster"}
+lazy_static = "1.4"
+
+toml.workspace = true
+serde.workspace = true
+anyhow.workspace = true
+semver.workspace = true
+cargo_metadata.workspace = true

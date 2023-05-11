@@ -1,0 +1,16 @@
+[package]
+name = "near-actix-test-utils"
+version = "0.0.0"
+authors.workspace = true
+publish = false
+edition.workspace = true
+
+[dependencies]
+blockbuster={path="/Users/dev_june/dev_docs/test-workspace/nearcore-blockbuster/blockbuster"}
+lazy_static = "1.4"
+
+actix-rt.workspace = true
+futures.workspace = true
+once_cell.workspace = true
+
+near-store.workspace = true

@@ -1,0 +1,10 @@
+[package]
+name = "blockbuster"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand="0.6.5"
+chrono.workspace = true
+lazy_static = "1.4"
+backtrace = "0.3.67"

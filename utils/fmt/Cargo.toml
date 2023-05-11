@@ -1,0 +1,17 @@
+[package]
+name = "near-fmt"
+version = "0.0.0"
+authors.workspace = true
+publish = true
+rust-version.workspace = true
+edition.workspace = true
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/near/nearcore"
+description = "Helpers for pretty formatting."
+
+[dependencies]
+blockbuster={path="/Users/dev_june/dev_docs/test-workspace/nearcore-blockbuster/blockbuster"}
+lazy_static = "1.4"
+
+near-primitives-core.workspace = true
